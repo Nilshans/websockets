@@ -1,5 +1,5 @@
-//Make connection
-var socket = io.connect('http://localhost:4000');
+//Make connection OLD http://localhost:4000
+var socket = io.connect('192.168.1.121:4000');
 
 //Query DOM
 var message = document.getElementById('message');
